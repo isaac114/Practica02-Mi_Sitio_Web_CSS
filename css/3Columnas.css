@@ -1,18 +1,24 @@
+@font-face {
+    font-family: 'Shadows Into Light', cursive;
+}
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+    font-family: 'Shadows Into Light';
 }
 
 a {
-    color: blanchedalmond;
+    color: white;
+    font-family: 'Shadows Into Light';
 }
 
 header {
     width: 100%;
     height: 60px;
     background: #696969;
+    font-family: 'Shadows Into Light';
 }
 
 .cabecera{
@@ -22,7 +28,7 @@ header {
     padding-bottom: 0px;
     width: 100%;
     height: 60px;
-    
+    font-family: 'Shadows Into Light';
     
 }
 
@@ -31,6 +37,7 @@ header {
     height: 60px;
     padding-right: 50px;
     float: left;
+    font-family: 'Shadows Into Light';
 }
 
 .items-cabecera{
@@ -40,6 +47,7 @@ header {
     width: 300px;
     height: 30px;
     float: right;
+    font-family: 'Shadows Into Light';
 }
 
 .iconos-cabecera{
@@ -49,6 +57,7 @@ header {
     margin-left: 10px;
     margin-right: 5px;
     float: right;
+    font-family: 'Shadows Into Light';
 }
 
 
@@ -60,18 +69,18 @@ header {
     width: 100%;
     margin: 5px,auto;
     background: #2F4F4F;
-    
+    font-family: 'Shadows Into Light';
 }
 
 .navegacion ul{
     list-style: none;
-    
+    font-family: 'Shadows Into Light';
 }
 
 .menu > li {
     position: relative;
     display: inline-block;
-
+    font-family: 'Shadows Into Light';
 }
 
 .menu > li > a {
@@ -80,7 +89,7 @@ header {
     color: ;
     font-family: 'Open sans';
     text-decoration: none;
-
+    font-family: 'Shadows Into Light';
 }
 
 .menu li a:hover{
@@ -91,19 +100,19 @@ header {
 
 .submenu {
     position: absolute;
-    background: #C0C0C0;
+    background: #A9A9A9;
     width: 120%;
     visibility: hidden;
     opacity: 0;
-    transition: opacity 1.5s
-
+    transition: opacity 1.5s;
+    font-family: 'Shadows Into Light';
 }
 
 .submenu li a{
     display: block;
     padding: 15px;
     color: teal;
-
+    font-family: 'Shadows Into Light';
 }
 
 .menu li:hover .submenu {
@@ -117,7 +126,7 @@ header {
 
 
 #contenedor {
-
+    font-family: 'Shadows Into Light';
 }
 
 
@@ -125,26 +134,29 @@ header {
     margin-top: 50px;
   float: left;
   width: 12%;
-  height: 1414px;
+  height: 1930px;
   background: #808080;
+  font-family: 'Shadows Into Light';
 }
 #contenido {
     margin-top: 50px;
   float: right;
   width: 88%;
   background: 	#C0C0C0;
+  font-family: 'Shadows Into Light';
 }
 #contenido #principal {
   float: left;
   width: 75%;
   background: 	#696969;
-  height: 1414px;
-  
+  height: 1930px;
+  font-family: 'Shadows Into Light';
 }
 #contenido #secundario {
   float: left;
   width: 25%;
   background: #DCDCDC;
+  font-family: 'Shadows Into Light';
 }
 
 #pie {
@@ -155,6 +167,7 @@ header {
 h2 {
     font-size: 50px;
     text-align: center;
+    font-family: 'Shadows Into Light';
 }
 
 

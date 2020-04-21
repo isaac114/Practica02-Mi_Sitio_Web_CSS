@@ -1,18 +1,32 @@
+
+@font-face {
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Shadows Into Light';
     
 }
 
+
+
+
+
+
 a {
-    color: blanchedalmond;
+    color: white;
+    font-family: 'Shadows Into Light'
 }
 
 header {
     width: 100%;
     height: 60px;
-    background: #696969;
+    background: #708090;
+    font-family: 'Shadows Into Light'
 }
 
 .cabecera{
@@ -22,7 +36,7 @@ header {
     padding-bottom: 0px;
     width: 100%;
     height: 60px;
-    
+    font-family: 'Shadows Into Light'
     
 }
 
@@ -31,6 +45,7 @@ header {
     height: 60px;
     padding-right: 50px;
     float: left;
+    font-family: 'Shadows Into Light'
 }
 
 .items-cabecera{
@@ -40,6 +55,7 @@ header {
     width: 300px;
     height: 30px;
     float: right;
+    font-family: 'Shadows Into Light'
 }
 
 .iconos-cabecera{
@@ -49,6 +65,7 @@ header {
     margin-left: 10px;
     margin-right: 5px;
     float: right;
+    font-family: 'Shadows Into Light'
 }
 
 
@@ -60,52 +77,48 @@ header {
     width: 100%;
     margin: 5px,auto;
     background: #2F4F4F;
+    font-family: 'Shadows Into Light'
     
 }
-
 .navegacion ul{
     list-style: none;
+    font-family: 'Shadows Into Light'
     
 }
-
 .menu > li {
     position: relative;
     display: inline-block;
 
 }
-
 .menu > li > a {
     display: block;
     padding: 15px;
-    color: ;
-    font-family: 'Open sans';
+
+    font-family: 'Shadows Into Light';
     text-decoration: none;
 
 }
-
 .menu li a:hover{
     color: #708090;
     transition: all .3s;
 }
 
-
 .submenu {
     position: absolute;
-    background: #C0C0C0;
+    background: #A9A9A9;
     width: 120%;
     visibility: hidden;
     opacity: 0;
-    transition: opacity 1.5s
+    transition: opacity 1.5s;
+    font-family: 'Shadows Into Light'
 
 }
-
 .submenu li a{
     display: block;
     padding: 15px;
     color: teal;
 
 }
-
 .menu li:hover .submenu {
     visibility: visible;
     opacity: 1;
@@ -116,10 +129,11 @@ header {
 /**Seccion 1*/
 
 .main {
-    background: 	#A9A9A9;
+    background: 	#C0C0C0;
     width: 100%;
     height: 450px;
     margin-top: 3.3%;
+    font-family: 'Shadows Into Light'
     
 }
 
@@ -129,6 +143,7 @@ header {
     margin-left: 25px;
     margin-right: 15px;
     margin-top: 20px;
+    font-family: 'Shadows Into Light'
 }
 
 .foto{
@@ -138,12 +153,14 @@ header {
     margin-top: 20px;
     width: 750px;
     height: 410px;
+    font-family: 'Shadows Into Light'
 }
 
 .titulo1 {
     font-size: 55px;
     text-align: center;
     line-height: 70px;
+    font-family: 'Shadows Into Light'
 }
 
 .parrafo1 {
@@ -152,16 +169,18 @@ header {
     text-align: center;
     line-height: 30px;
     margin-bottom: 25px;
+    font-family: 'Shadows Into Light'
 }
 
 
 
-/**Botones**/
+
 
 
 .botones{
     margin-left: 140px;
     float: left;
+    font-family: 'Shadows Into Light'
 }
 
 .boton_1{
@@ -175,23 +194,26 @@ header {
     font-weight: 300;
     font-size: 25px;
     font-style: italic;
-    color: #708090;
+    color: #696969;
     background-color: black;
     border-radius: 15px;
     border: 3px double #708090;
+    font-family: 'Shadows Into Light'
   }
   .boton_1:hover{
     opacity: 0.6;
     text-decoration: none;
+    font-family: 'Shadows Into Light'
   }
 
-/**SECCION2*/
+
 
 .ma {
     background: #D3D3D3;
     width: 100%;
     height: 450px;
     float: left;
+    font-family: 'Shadows Into Light'
 }
 
 
@@ -200,27 +222,27 @@ header {
     text-align: center;
     font-size: 40px;
     margin-bottom: 40px;
+    font-family: 'Shadows Into Light'
 }
 
 #tienda{
     width: 210px;
     height: 285px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
+    font-family: 'Shadows Into Light'
 }
 
 
 
 
-/**Seccion3
-
-**/
 
 .main3 {
     background: #708090;
     width: 100%;
     height: 420px;
     float: left;
+    font-family: 'Shadows Into Light'
 }
 
 .imgRedonda {
@@ -229,6 +251,7 @@ header {
     width:300px;
     height:300px;
     border-radius:150px;
+    font-family: 'Shadows Into Light'
 }
 
 
@@ -236,18 +259,20 @@ header {
     background: #708090;
     width: 100%;
     height: 100px;
+    font-family: 'Shadows Into Light'
     
 }
 
 .mafinal .aa{
     width: 10px;
     height: 10px;
+    font-family: 'Shadows Into Light'
 }
 
 .teto {
     width:30px;
     height:30px;
-    
+    font-family: 'Shadows Into Light'
 }
 
 .lala{
@@ -260,11 +285,11 @@ header {
     margin-top: 140px;
 }
 
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg  {border-collapse:collapse;border-spacing:0;font-family: 'Shadows Into Light';}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;font-family: 'Shadows Into Light';}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;font-family: 'Shadows Into Light';}
+.tg .tg-cly1{text-align:left;vertical-align:middle;font-family: 'Shadows Into Light';}
+.tg .tg-0lax{text-align:left;vertical-align:top;font-family: 'Shadows Into Light';}
 
 
 
