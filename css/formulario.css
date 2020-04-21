@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+}
+.registro{
+    width: 400px;
+    background: dimgray;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+}
+
+.registro h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controles{
+    width: 100%;
+    background: blue;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid brown;
+    font-size: 18px;
+}
+
+.registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.registro a{
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.registro a:hover{
+    color: cornsilk;
+    text-decoration: underline;
+}
+
+.registro .botones{
+    width: 100%;
+    background: blue;
+    border: none;
+    padding: 12px;
+    color: wheat;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
