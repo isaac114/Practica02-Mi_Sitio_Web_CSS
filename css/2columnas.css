@@ -63,12 +63,10 @@ header {
 
 
 
-
-
-
 .navegacion{
     width: 100%;
-    margin: 5px,auto;
+    margin: 5px;
+    margin: auto;
     background: #2F4F4F;
     font-family: 'Shadows Into Light';
 }
@@ -106,7 +104,7 @@ header {
     visibility: hidden;
     opacity: 0;
     transition: opacity 1.5s
-    font-family: 'Shadows Into Light';
+    
 }
 
 .submenu li a{
@@ -181,11 +179,6 @@ h2 {
 }
 
 
-
-
-
-
-
 #menuone {
     float: left;
     width: 15%;
@@ -195,3 +188,5 @@ h2 {
     font-family: 'Shadows Into Light';
 
 }
+
+
