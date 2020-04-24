@@ -117,11 +117,15 @@
 
 
 # Bibliografias
-https://www.colorzilla.com/
-https://validator.w3.org/
-https://www.flaticon.com/
-https://www.mclibre.org/consultar/htmlcss/index.html
-https://www.mclibre.org/
-https://www.w3schools.com/
+<ul>
+ <li type="circle">https://www.colorzilla.com/</li>
+ <li type="circle">https://validator.w3.org/</li>
+ <li type="circle">https://www.flaticon.com/</li>
+ <li type="circle">https://www.mclibre.org/consultar/htmlcss/index.html</li>
+ <li type="circle">https://www.mclibre.org/</li>
+ <li type="circle">https://www.w3schools.com/</li>
+</ul>
+
+
 
 
