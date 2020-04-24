@@ -243,5 +243,23 @@ h2 {
     background: #808080;
     margin-top: 50px;
     font-family: 'Shadows Into Light';
+}
+
+.mritmos{
+    float: left;
+    width: 15%;
+    height: 2736px;
+    background: #808080;
+    margin-top: 50px;
+    font-family: 'Shadows Into Light';
+}
+
+.teoria{
+    float: left;
+    width: 15%;
+    height: 2991px;
+    background: #808080;
+    margin-top: 50px;
+    font-family: 'Shadows Into Light';
 
 }
