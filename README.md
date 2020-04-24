@@ -117,7 +117,7 @@
 
 
 <h1>Bibliografias</h1>
-[](https://www.colorzilla.com/)
+@https://www.colorzilla.com/
 https://validator.w3.org/
 https://www.flaticon.com/
 https://www.mclibre.org/consultar/htmlcss/index.html
