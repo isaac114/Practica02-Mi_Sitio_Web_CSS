@@ -1,38 +1,29 @@
 # Practica02-Mi_Sitio_Web_CSS
 
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
  <h2>1._Implementacion de la Pagina Home </h2>
  <p>Estructura del código </p>
  <p>La pagina home o index.html se compone de 3 partes, Una cabecera la cual contiene el logo un input de tipo búsqueda y 3 imágenes mas. También esta compuesta por el menú de navegación. Luego tenemos una sección dividida en 2 columnas la cual tiene un mensaje y una foto, posteriormente vamos a la sección de ventas la cual se acomodaron las imágenes mediante un float left, de igual manera para la parte de presentación de equipo de trabajo, para finalizar tenemos una tabla con datos personales y dos logos. </p>
-
+<p></p>
  <h2>2._Implementacion de una página con 2 columnas </h2>
  <p>Implementación del Código</p>
  <p>La Página Armonía Musical o armonía.htm está conformada de por una cabecera la cual consta del logo, un input de tipo search y unas imágenes adicionales, luego tenemos el menú de navegación, luego tenemos la parte del body el cual está dividido en 2 partes: la parte izquierda consta la parte de un subíndice la parte derecha va el contenido principal. Al final encontramos el footer o pie de pagina con los datos del estudiante. <h2>3._Implementacion Pagina con 3 Columnas </h2>
  <p>Implementación del Código </p>
  <p>La página composición Musical o composición.html este compuesto por su cabecera que contiene un logo un input de tipo search y varias imágenes, así como del menú de navegación. Luego tenemos el body el cual esta dividido en 3 secciones, la primera contiene un subíndice, la segunda contiene la parte central o principal de la pagina y la tercera parte es solo un complementa de la segunda, finalmente tenemos el pie de pagina con los datos del estudiante. </p>
+ <p></p>
 <h2>4._Vista de los archivos CSS Desarrollados</h2>
 <p>2columnas.css: Hace referencia a los atributos que se les otorgo a las paginas que disponen de el requerimiento 2 columnas. </p>
 <p>3columnas.css: Hace referencia a los atributos que se les otorgo a las paginas que disponen de el requerimiento 3 columnas</p>
 <p>Edición.css:  Hace referencia a las reglas aplicadas a tipo de letra, color, tamaño de títulos,etc. </p>
 <p>Formulario.css: Hace referencia a las reglas css aplicadas al formulario requerido. </p>
 <p>Index.html: Hace referencia a los atributos aplicados a la pagina home. </p>
+<p></p>
 <h2>4._Selectores Empleados </h2>
 <p>Por ID </p>
 <p>Selector Universal </p>
 <p>Selector de Tipo o Etiqueta </p>
 <p>Selectores Decendentes </p>
 <p>Selectores Por Clases </p>
+<p></p>
 <h2>5._Menu horizontal de navegación y pseudoclases </h2>
 <p>Menu Principal </p>
 <p>Cada Item tiene Su respectivo Submenu de Contenido </p>
@@ -46,6 +37,7 @@
 <p>.menu > li >a>_ Clase que va a dar un relleno de 15px, cambiar la fuente y va quitar cualquier texto decorativo a cualquier elemento tipo <a> que sea hijo de <li> y que este a su vez sea hijo de la clase .menu. </p>
 <p>.menu li a:hover._  Clase que posibilita el despliegue del submenú al pasar el mouse sobre una etiqueta tipo <a> con una demora o transición de 1.5 segundos. </p>
 <p>.submenu li a._ Regla que se va a aplicar a todos los elementos a y li que tengan la clase .submenu. </p>
+ <p></p>
 <h2>6._Formulario de Registro de Usuario y pseudoclases </h2>
 <p>Implementación código html </p>
 <p>Para poder elaborar este formulario empleamos 5 etiquetas input 2 de tipo texto, una de tipo email, una de tipo password, una de tipo párrafo y una de tipo submit, todo esto en la parte de section.  </p>
@@ -58,6 +50,7 @@
 <p>.registro p._  A todas las etiquetas p que estén dentro de una clase .registro se les dará un tamaño de ancho de 40px, centrado, tamaño de letra de 18px y la fuente respectiva. </p>
 <p>.registro a._ a todas las etiquetas <a> que estén dentro de la clase registro se les dará un color medio crema,sin decoración y la respectiva fuente. </p>
 <p>.registro a:hover._ A todas las etiquetas que <a> que estén dentro de la clase registro y que el cursor este sobre dicha etiqueta se les dará un color crema, un subrayado y un tipo de letra.</p>
+ <p></p>
 <h2>7._ Código CSS </h2>
 <p>En esta parte vamos a omitir la explicación del menú de navegación y formulario ya que se la planteo en el punto anterior. </p>
 <p>2columnas.css </p>
@@ -75,6 +68,7 @@
 <p>#contenido #secundario._  Se aplica a todos los #secundario que están dentro de #contenido. Ubica a las secciones dentro de el desde la izquierda uno a lado de otro, toma el 25% restante del 88% tomado en contenido y da un color medio blanco. </p>
 <p>.separacion._ Esta clase se utilizo para dar un margen de separación entre artículos y párrafos, con un alto de 15px, 10 px a los lados y 20px en la parte baja</p>
 <p>.subt._ Esta clase se empleo para dar una separación o margen a los videos y fotos. </p>
+ <p></p>
 <h2>7._Validacion HTML </h2>
 <p>Index.html (HOME)._sin errores</p>
 <p>Formulario.html (Formulario de registro de Usuario).sin errores </p>
@@ -92,6 +86,8 @@
 <p>Index.css </p>
 <p>Formulario.css </p>
 <p>Edicion.css </p>
+ <p></p>
+ <p></p>
 <h1>RESULTADO(S) OBTENIDO(S):</h1>
 
 <ul>
@@ -101,14 +97,14 @@
     <li type="circle">4. Los estudiantes son capaces de diseñar y estructurar un sitio web </li>
     <li type="circle">5. Los conceptos analizados en clase se implementaron de forma correcta y satisfactoria. </li>
 </ul>
-
+<p></p>
 <h1>CONCLUSIONES:</h1>
 
 <ul>
     <li type="circle">1. Para poder implementar un diseño web primero se debe aprender bien la estructura html y como funciona cada etiqueta y sección, posteriormente para que un sitio web se vea de forma mucho mas llamativa y vistosa se debe implementar css. </li>
     <li type="circle">2. El uso de css es una herramienta muy útil al momento de diseñar a nuestro gusto o al gusto del cliente una pagina web. </li>
 </ul>
-
+<p></p>
 <h1>RECOMENDACIONES: </h1>
 
 <ul>
@@ -120,6 +116,11 @@
 </ul>
 
 
-=======
->>>>>>> b549cc5a767d22c1c57faaa860463aa388386829
+<h2>Bibliografias</h2>
+<a href="https://www.colorzilla.com/ "></a>
+<a href="https://validator.w3.org/"></a>
+<a href="https://www.flaticon.com/"></a>
+<a href="https://www.mclibre.org/consultar/htmlcss/index.html"></a>
+<a href="https://www.mclibre.org/"></a>
+<a href="https://www.w3schools.com/"></a>
 
