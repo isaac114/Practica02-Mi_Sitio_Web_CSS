@@ -1,6 +1,7 @@
 # Practica02-Mi_Sitio_Web_CSS
 
 
+<<<<<<< HEAD
 
 
 
@@ -119,4 +120,6 @@
 </ul>
 
 
+=======
+>>>>>>> b549cc5a767d22c1c57faaa860463aa388386829
 
