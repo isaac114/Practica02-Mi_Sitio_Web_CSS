@@ -6,6 +6,7 @@
     <title>Curso de Guitarra</title>
     <link rel="stylesheet" type="text/css" href="/Practica02-Mi_Sitio_Web_CSS/css/2columnas.css">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="/Practica02-Mi_Sitio_Web_CSS/css/edicion.css">
 </head>
 <body>
     <header>
@@ -99,28 +100,36 @@
 
     <div id="contenedor">
         
-        <div id="menu">
-            <nav>
-                <ul>
-                    <li><a href="acordes.html#formacion">Formacion de Acordes</a></li>
-                    <li><a href="acordes.html#triadas">Tabla de Acordes Triadas</a></li>
-                    <li><a href="acordes.html#mayores">Acordes Mayores en Guitarra</a></li>
-                    <li><a href="acordes.html#menores">Acordes Menores en Guitarra</a></li>
-                    <li><a href="acordes.html#septimas">Acordes con Septima Dominante en Guitarra</a></li>
-                </ul>
-            </nav>
+        <div id="menuu">
+           
+                <div class="subm">
+                    <nav >
+                        <ul>
+                            <li><a href="acordes.html#formacion">Formacion de Acordes</a></li>
+                            <li></li>
+                            <li><a href="acordes.html#triadas">Tabla de Acordes Triadas</a></li>
+                            <li></li>
+                            <li><a href="acordes.html#mayores">Acordes Mayores en Guitarra</a></li>
+                            <li></li>
+                            <li><a href="acordes.html#menores">Acordes Menores en Guitarra</a></li>
+                            <li></li>
+                            <li><a href="acordes.html#septimas">Acordes con Septima Dominante en Guitarra</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            
         </div>
       
         <div id="contenido">
-            <section>
-                <h2>Teoria y Ejemplos</h2>
+            <section class="separacion">
+                <h2 class="titulos">Teoria y Ejemplos</h2>
                 <article>
                     <h2><a id="formacion"><small>Formacion de Acordes</small></a></h2>
                     <p>Cuando se ejecutan más de dos notas al mismo tiempo se está en presencia de un acorde El acorde básico está compuesto por tres notas que son: la fundamental, la tercera y la quinta. A este tipo de acorde se le denomina tríada.
                         Si construimos un acorde con la fundamental, la tercera y la quinta nota de una escala mayor o diatónica estaremos en presencia de un Acorde Mayor. Si lo construimos pero tomando la raíz, la tercera y la quinta en una escala menor tendremos un Acorde Menor. Hay otras dos triadas básicas, la aumentada y la disminuida que más adelante se ilustrará de donde aparecen.
                     </p>
         
-                    <dl>
+                    <dl class="separacion">
                         <dt>-Do Mayor</dt>
                         <dd>-Se acostumbra notarse como C: contiene las notas do, mi, sol. Una fórmula para memorizar el acorde mayor, puede ser, ( T 4 · 3 · ), es decir se toma la fundamental, la siguiente nota cuatro semitonos por encima y la siguiente nota tres semitonos por encima. Es válido para cualquier acorde mayor. Por ejemplo Sol Mayor, o G sería: sol, sol#, la, la#, si, do, do#, re, re#, mi, fa, fa#. {G = sol, si, re}</dd>
                         <dt>-Do Menor</dt>
@@ -159,9 +168,9 @@
                 </article>
         
                 <article>
-                    <h2><a id="triadas"><small>Table de Acordes Por Triadas</small></a></h2>
+                    <h2 class="subt"><a id="triadas"><small>Table de Acordes Por Triadas</small></a></h2>
         
-                    <table style="text-align: center;" border="2">
+                    <table  class="separacion" tyle="text-align: center;" border="2">
                         <tr>
                           <th rowspan="2">Nombre del Acorde</th>
                           <th colspan="2">Tipo de Formacion de Acorde</th>
@@ -212,7 +221,7 @@
                 </article>
         
                 <article>
-                    <h2><a id="mayores">Acordes Mayores</a></h2>
+                    <h2 class="subt"><a id="mayores">Acordes Mayores</a></h2>
                     <p>Los acordes mayores son los primeros acordes que vas a necesitar para empezar a acompañar canciones sencillas con tu guitarra.
         
                         Todos los acordes se pueden poner de diversas maneras.
@@ -227,7 +236,7 @@
                 </article>
         
                 <article>
-                    <h2><a id="menores">Acordes Menores</a></h2>
+                    <h2 class="subt"><a id="menores">Acordes Menores</a></h2>
                     <p>Vamos con otro tipo de acordes de guitarra, que se llaman menores y que se diferencian de los mayores sólo en una nota. (A estas alturas tienes que tener bien clara la diferencia entre acordes y notas). Al escribirlos se pone detrás una “m” que indica menor.
                         Puedes comprobar también que los dedos que van a cada cuerda de la guitarra no son los mismos. Esto se hace simplemente por comodidad, pero la única diferencia entre los dos acordes es que la nota pulsada en la segunda cuerda, pasa de estar en el traste 2 a estar en el traste 1.
                         Lo comparamos con el acorde Mi mayor, y al igual que ocurría con el La, la única diferencia es que bajamos un traste a una de las notas. Pero la nota que bajamos (en la tercera cuerda), está en el traste 1. Así que como no quedan más trastes por abajo, pasará a estar tocada al aire.
@@ -236,7 +245,7 @@
                         Evidentemente puede haber una canción con acordes menores que hable de comer, beber, joder y dormir, y aunque la temática no es triste en absoluto, la música sí tendrá ese tufillo a "acorde menor"...
                         Después de tocar unos y otros te quedará clara la idea.
                     </p>
-                    <a href="armonia.html"></a><div style="text-align: center;"><img src="/Practica01---Mi-Primer-Sitio-Web/imagenes/acordes2.png"  width="600" height="400" alt="Quintas"/></div>
+                    <a href="armonia.html"></a><div class="imag" style="text-align: center;"><img src="/Practica01---Mi-Primer-Sitio-Web/imagenes/acordes2.png"  width="600" height="400" alt="Quintas"/></div>
                 </article>
         
                 <article>
@@ -251,7 +260,7 @@
                         Acorde de séptima de dominante (7). Es un acorde mayor con la séptima menor (1 3 5 b7), típico para tocar blues. Ejemplo: C7: do-mi-sol-sib.
                         Acorde semidisminuido (m7b5). Es como el m7 pero con la quinta bemol y no debe confundirse con el acorde disminuido (1 b3 b5 b7). Ejemplo: Cm7b5: do-mib-solb-sib.
                     </p>
-                    <a href="armonia.html"></a><div style="text-align: center;"><img src="/Practica01---Mi-Primer-Sitio-Web/imagenes/acordes3.png"  width="600" height="400" alt="Quintas"/></div>
+                    <a href="armonia.html"></a><div class="imag" style="text-align: center;"><img src="/Practica01---Mi-Primer-Sitio-Web/imagenes/acordes3.png"  width="600" height="400" alt="Quintas"/></div>
                 </article>
         
             </section>

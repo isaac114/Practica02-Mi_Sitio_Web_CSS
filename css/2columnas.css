@@ -190,3 +190,48 @@ h2 {
 }
 
 
+
+#menuu {
+    float: left;
+    width: 15%;
+    height: 3265px;
+    background: #808080;
+    margin-top: 50px;
+    font-family: 'Shadows Into Light';
+
+}
+
+
+#menuc {
+    float: left;
+    width: 15%;
+    height: 6338px;
+    background: #808080;
+    margin-top: 50px;
+    font-family: 'Shadows Into Light';
+
+}
+
+
+
+#menub {
+    float: left;
+    width: 15%;
+    height: 2466px;
+    background: #808080;
+    margin-top: 50px;
+    font-family: 'Shadows Into Light';
+
+}
+
+
+
+#menuescalas {
+    float: left;
+    width: 15%;
+    height: 4967px;
+    background: #808080;
+    margin-top: 50px;
+    font-family: 'Shadows Into Light';
+
+}

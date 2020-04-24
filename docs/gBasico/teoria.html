@@ -6,6 +6,7 @@
     <title>Curso de Guitarra</title>
     <link rel="stylesheet" type="text/css" href="/Practica02-Mi_Sitio_Web_CSS/css/3columnas.css">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="/Practica02-Mi_Sitio_Web_CSS/css/edicion.css">
 </head>
 <body>
 
@@ -101,21 +102,23 @@
 
     <div id="contenedor">  
         <div id="menu">
-            <nav>
+            
+             <nav>
                 <ul>
                     <li><a href="teoria.html#musica">Musica</a></li>
                     <li><a href="teoria.html#lectura">Lectura Musical</a></li>
                     <li><a href="teoria.html#ritmo">Ritmo y compas</a></li>
                     <li><a href="teoria.html#metronomo">Metronomo</a></li>
                 </ul>
-            </nav>
+             </nav>
+            
         </div>
       
         <div id="contenido">
-            <section>
-                <h2>Tematica 1</h2>
+            <section class="separacion">
+                <h2 class="titulos">Tematica 1</h2>
                 <article>
-                    <h2><a id=musica><small>Musica y Lectura Musical</small></a></h2>
+                    <h2 class="subt"><a id=musica><small>Musica y Lectura Musical</small></a></h2>
                     <p>La Música (del griego: pooorcr¡ lréXvrtl - mousike ltéchnel, "el arte de las musas") es según su definición tradicional, el arte de combinar los sonidos sucesiva y simultáneamente, con orden y equilibrio, dentro de un determinado tiempo.
         
                         <mark>La Música, como manifestación artística, es un producto cultural. 
@@ -132,11 +135,7 @@
                         Elementos de la música
                         La organización coherente de los sonidos y los silencios (según una forma de percepción) nos da los parámetros fundamentales de la música.
                     </p>
-                    <ol>
-                        <li>Armonia</li>
-                        <li>Melodia</li>
-                        <li>Ritmo</li>
-                    </ol>
+                   
                     <p>
                         Armonía
                         Es la forma de combinar sonidos en forma simultánea. 
@@ -164,22 +163,22 @@
         
                 <article>
         
-                    <h2><a id="lectura"><small>Lectura Musical</small></a></h2>
+                    <h2 class="subt"><a id="lectura"><small>Lectura Musical</small></a></h2>
                     <p>En este vídeo vemos los primeros pasos que tenemos que saber para leer tanto tablaturas como partituras!
                         En el vemos las figuras musicales y sus valores junto con los silencios, ademas vemos los conceptos de compás, ritmo y tiempo.
                     </p>
-                    <a href="armonia.html"></a><div style="text-align: center;"><img src="/Practica01---Mi-Primer-Sitio-Web/imagenes/teoria1.png"  width="400" height="400" alt="Escalas"/></div>
+                    <a href="armonia.html"></a><div class="imag"  style="text-align: center;"><img src="/Practica01---Mi-Primer-Sitio-Web/imagenes/teoria1.png"  width="400" height="400" alt="Escalas"/></div>
                     <p>
                         Te dejamos el siguiente Video
                     </p>
                     <div style="text-align: center;">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ex_LwY5u9WI"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="imag" width="560" height="315" src="https://www.youtube.com/embed/ex_LwY5u9WI"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <br>
                     </div>
         
                     <aside>
                         <p>En la siguiente imagen vemos las figuras representadas por lineas de color rojo, en el caso de la redonda no hay linea y aumentan a partir de la blanca, negra, semifusa, etc...</p>
-                        <a href="armonia.html"></a><div style="text-align: center;"><img src="/Practica01---Mi-Primer-Sitio-Web/imagenes/teoria2.png"  width="600" height="150" alt="Escalas"/></div>
+                        <a href="armonia.html"></a><div class="imag" style="text-align: center;"><img src="/Practica01---Mi-Primer-Sitio-Web/imagenes/teoria2.png"  width="600" height="150" alt="Escalas"/></div>
                     </aside>
         
                 </article>
@@ -188,11 +187,11 @@
                 
             </section>
         
-            <section>
-                <h2>Tematica 2</h2>
+            <section class="separacion"> 
+                <h2 class="titulos">Tematica 2</h2>
                 <article>
-                    <h2><a id="ritmo"><small>Ritmo y Compas</small></a></h2>
-                    <dl>
+                    <h2 class="subt"><a id="ritmo"><small>Ritmo y Compas</small></a></h2>
+                    <dl class="separacion">
                         <dt>¿Qué es El TIEMPO?</dt>
                         <dd>El tiempo es aquel patrón musical que nos indica la velocidad de la música en que se desea ejecutar una canción.</dd>
                         <dt>¿Qué es El RITMO?</dt>
@@ -206,7 +205,7 @@
                 </article>
         
                 <article>
-                    <h2><a id="metronomo"><small>Metronomo</small></a></h2>
+                    <h2 class="subt"><a id="metronomo"><small>Metronomo</small></a></h2>
                     <p>El metrónomo es un aparato que sirve para marcar el tempo o velocidad en las obras musicales.
         
                         Produce de forma regular una señal acústica y/o visual que permite al músico seguir el pulso del compás de forma exacta. 
@@ -221,7 +220,7 @@
                         
                         Los términos italianos utilizados para indicar de forma sugerida el movimiento y la velocidad en la Música se dividen en tres grupos:
                     </p> 
-                    <dl>
+                    <dl class="separacion">
                         <dt>-Movimientos lentos (de 40 a 72)</dt>
                         <dd>-Grave                       (40)      - Muy lento, serio, pesado</dd>
                         <dd>-Largo                       (44-48) - Muy lento</dd>
@@ -262,7 +261,7 @@
                 </div>
             </footer>
         </div>
-      </div>
+    </div>
     
 </body>
 </html>
