@@ -1,5 +1,5 @@
 # Practica02-Mi_Sitio_Web_CSS
- Sitio Web usando CSS
+
 
 
 
@@ -117,3 +117,6 @@
     <li type="circle">4. Tener cuidado con los nombre repetidos de una regla css </li>
     <li type="circle">5. Verificar que los id no se repitan en toda la pagina.  </li>
 </ul>
+
+
+
