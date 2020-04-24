@@ -116,11 +116,11 @@
 </ul>
 
 
-<h2>Bibliografias</h2>
+<h1>Bibliografias</h1>
 <https://www.colorzilla.com/>
-<a href="https://validator.w3.org/">.</a>
-<a href="https://www.flaticon.com/">.</a>
-<a href="https://www.mclibre.org/consultar/htmlcss/index.html">.</a>
-<a href="https://www.mclibre.org/">.</a>
-<a href="https://www.w3schools.com/">.</a>
+<https://validator.w3.org/>
+<https://www.flaticon.com/>
+<https://www.mclibre.org/consultar/htmlcss/index.html>
+<https://www.mclibre.org/>
+<https://www.w3schools.com/>
 
