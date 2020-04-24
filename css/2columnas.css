@@ -235,3 +235,13 @@ h2 {
     font-family: 'Shadows Into Light';
 
 }
+
+#menur {
+    float: left;
+    width: 15%;
+    height: 3000px;
+    background: #808080;
+    margin-top: 50px;
+    font-family: 'Shadows Into Light';
+
+}
