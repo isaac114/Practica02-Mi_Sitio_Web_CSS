@@ -117,6 +117,6 @@
 
 
 <h1>Bibliografias</h1>
-@https://www.colorzilla.com/
+< https://www.colorzilla.com/ >
 
 
